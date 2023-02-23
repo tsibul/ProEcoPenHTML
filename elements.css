@@ -1,0 +1,69 @@
+@import url("colors.css");
+
+
+/* Content */
+/* Auto layout */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 48px;
+
+    position: relative;
+    width: 392px;
+    height: 354px;
+
+    /* Primary/50 Primary/50*/
+    background: var(--clr-primary-50);
+    border-radius: 48px;
+}
+
+
+
+/* Vector-checkBoxBorder */
+.checkbox-border {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+
+    /* Primary/50 */
+    background: var(--clr-primary-50);
+    /* Secondary/400 */
+    border: 1px solid var(--clr-secondary-400);
+    border-radius: 4px;
+}
+
+/* basic / check */
+.checkbox-basic-check-checked {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: 2px;
+
+    /* Pallete Base/Primary Primary/500 */
+    background: var(--clr-primary);
+    border-radius: 4px;
+}
+
+/* basic / check */
+.checkbox-basic-check-disabled {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: 2px;
+    /* Secondary/300 Secondary/300 */
+    background: var(--clr-secondary-300);
+    border-radius: 4px;
+}
+
+.btn {
+    display: flex;
+    border: 0px;
+    border-radius: 32px;
+    padding: 12px 24px;
+    align-items: center;
+    margin: 4px;
+}
