@@ -1,6 +1,100 @@
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Ultralight.eot');
+    src: local('Neue Machina Ultralight'), local('NeueMachina-Ultralight'),
+        url('/font/NeueMachina-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Ultralight.woff2') format('woff2'),
+        url('/font/NeueMachina-Ultralight.woff') format('woff'),
+        url('/font/NeueMachina-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Light.eot');
+    src: local('Neue Machina Light'), local('NeueMachina-Light'),
+        url('/font/NeueMachina-Light.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Light.woff2') format('woff2'),
+        url('/font/NeueMachina-Light.woff') format('woff'),
+        url('/font/NeueMachina-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Black.eot');
+    src: local('Neue Machina Black'), local('NeueMachina-Black'),
+        url('/font/NeueMachina-Black.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Black.woff2') format('woff2'),
+        url('/font/NeueMachina-Black.woff') format('woff'),
+        url('/font/NeueMachina-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Regular.eot');
+    src: local('Neue Machina Regular'), local('NeueMachina-Regular'),
+        url('/font/NeueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Regular.woff2') format('woff2'),
+        url('/font/NeueMachina-Regular.woff') format('woff'),
+        url('/font/NeueMachina-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Bold.eot');
+    src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+        url('/font/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Bold.woff2') format('woff2'),
+        url('/font/NeueMachina-Bold.woff') format('woff'),
+        url('/font/NeueMachina-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Medium.eot');
+    src: local('Neue Machina Medium'), local('NeueMachina-Medium'),
+        url('/font/NeueMachina-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Medium.woff2') format('woff2'),
+        url('/font/NeueMachina-Medium.woff') format('woff'),
+        url('/font/NeueMachina-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Ultrabold.eot');
+    src: local('Neue Machina Ultrabold'), local('NeueMachina-Ultrabold'),
+        url('/font/NeueMachina-Ultrabold.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Ultrabold.woff2') format('woff2'),
+        url('/font/NeueMachina-Ultrabold.woff') format('woff'),
+        url('/font/NeueMachina-Ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.logo {
+    font-family: 'Neue Machina', 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    letter-spacing: -0.06em;
+}
+
 /* Headline/Semibold */
 .headline1 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
@@ -13,7 +107,7 @@
 
 /* Headline 2/Semibold */
 .headline3 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -25,9 +119,11 @@
     color: #242F34;
 }
 
+
+
 /* Title/Semibold */
 .title1 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -41,7 +137,7 @@
 
 /* Title/Medium */
 .title2 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -51,11 +147,13 @@
 
     /* Pallete Base/Secondary */
     color: #242F34;
+    text-decoration: none;
+
 }
 
 /* Body 1/Regular */
 .body1 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -69,7 +167,7 @@
 
 /* Body 1/Medium */
 .body2 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -83,7 +181,7 @@
 
 /* Link 1/Regular */
 .link1 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -98,7 +196,7 @@
 
 /* Link 1/Medium */
 .link2 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -113,7 +211,7 @@
 
 /* Body 2/Regular */
 .body2 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -127,7 +225,7 @@
 
 /* Body 2/Medium */
 .body4 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -141,7 +239,7 @@
 
 /* Caption/Regular */
 .capiton1 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -155,7 +253,7 @@
 
 /* Caption/Medium */
 .capiton2 {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

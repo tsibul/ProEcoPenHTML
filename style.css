@@ -1,64 +1,295 @@
 @import url("colors.css");
+@import url("typografy.css");
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Ultralight.eot');
+    src: local('Neue Machina Ultralight'), local('NeueMachina-Ultralight'),
+        url('/font/NeueMachina-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Ultralight.woff2') format('woff2'),
+        url('/font/NeueMachina-Ultralight.woff') format('woff'),
+        url('/font/NeueMachina-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Light.eot');
+    src: local('Neue Machina Light'), local('NeueMachina-Light'),
+        url('/font/NeueMachina-Light.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Light.woff2') format('woff2'),
+        url('/font/NeueMachina-Light.woff') format('woff'),
+        url('/font/NeueMachina-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Black.eot');
+    src: local('Neue Machina Black'), local('NeueMachina-Black'),
+        url('/font/NeueMachina-Black.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Black.woff2') format('woff2'),
+        url('/font/NeueMachina-Black.woff') format('woff'),
+        url('/font/NeueMachina-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Regular.eot');
+    src: local('Neue Machina Regular'), local('NeueMachina-Regular'),
+        url('/font/NeueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Regular.woff2') format('woff2'),
+        url('/font/NeueMachina-Regular.woff') format('woff'),
+        url('/font/NeueMachina-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Bold.eot');
+    src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+        url('/font/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Bold.woff2') format('woff2'),
+        url('/font/NeueMachina-Bold.woff') format('woff'),
+        url('/font/NeueMachina-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Medium.eot');
+    src: local('Neue Machina Medium'), local('NeueMachina-Medium'),
+        url('/font/NeueMachina-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Medium.woff2') format('woff2'),
+        url('/font/NeueMachina-Medium.woff') format('woff'),
+        url('/font/NeueMachina-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/font/Neue Machina';
+    src: url('/font/NeueMachina-Ultrabold.eot');
+    src: local('Neue Machina Ultrabold'), local('NeueMachina-Ultrabold'),
+        url('/font/NeueMachina-Ultrabold.eot?#iefix') format('embedded-opentype'),
+        url('/font/NeueMachina-Ultrabold.woff2') format('woff2'),
+        url('/font/NeueMachina-Ultrabold.woff') format('woff'),
+        url('/font/NeueMachina-Ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Content */
-/* Auto layout */
-.content {
+body {
+    background-color: var(--clr-primary-50);
+}
+
+.container {
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-menu {
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 80%;
+    height: auto;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: var(--clr-primary-100);
+    z-index: 100;
+}
+
+.menu {
+    margin-left: 48px;
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    overflow-x: inherit;
+    overflow-wrap: normal;
+}
+
+.head {
+    margin-top: 80px;
+    /*height: 1117px;*/
+
+    /* Primary/100 Primary/100 */
+    background: var(--clr-primary-100);
+    border-radius: 0px 0px 60px 60px;
+    order: 1;
+}
+
+.video {
+    max-height: 747px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.clip {
+    padding-top: 80px;
+}
+
+
+.clip video {
+    max-height: 700px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.clip-text {
+    margin-left: 48px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 400px;
+
+}
+
+.slogan {
+    margin-top: 128px;
+    background-color: var(--clr-primary-800);
+    border-radius: 32px;
+    padding: 64px 16px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 48px;
-    gap: 48px;
+    gap: 32px;
+    max-width: 1284px;
+    min-height: 386px;
+    align-items: center;
+    justify-content: space-evenly;
 
-    position: relative;
-    width: 392px;
-    height: 354px;
-
-    /* Primary/50 Primary/50*/
-    background: bg-primary-50;
-    border-radius: 48px;
 }
 
-
-
-/* Vector-checkBoxBorder */
-.checkbox-border {
-    box-sizing: border-box;
-    width: 20px;
-    height: 20px;
-
-    /* Primary/50 */
-    background: bg-primary-50;
-    /* Secondary/400 */
-    border: 1px solid color-secondary-400;
-    border-radius: 4px;
+.slogan-title {
+    font-family: 'Neue Machina', 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 145%;
+    /* identical to box height, or 70px */
+    letter-spacing: -0.01em;
+    color: var(--clr-primary-50);
 }
 
-/* basic / check */
-.checkbox-basic-check-checked {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 2px;
-    top: 2px;
-
-    /* Pallete Base/Primary Primary/500 */
-    background: bg-primary;
-    border-radius: 4px;
+.slogan-text {
+    font-family: 'Neue Machina', 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 145%;
+    /* or 52px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: var(--clr-primary-50);
+    align-self: stretch;
 }
 
-/* basic / check */
-.checkbox-basic-check-disabled {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 2px;
-    top: 2px;
-    /* Secondary/300 Secondary/300 */
-    background: bg-secondary-300;
-    border-radius: 4px;
+.slogan-text {
+    font-family: 'Neue Machina', 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 145%;
+    /* or 52px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: var(--clr-primary-50);
+    align-self: stretch;
+}
+
+.what {
+    max-width: 1284px;
+    max-height: 763px;
+}
+
+.pens {
+    max-width: 1728px;
+    max-height: 2547.49px;
+}
+
+.fact {
+    max-width: 1284px;
+    max-height: 516px;
+}
+
+.notebook {
+    max-width: 1728px;
+    max-height: 2957.49px;
+}
+
+.proecopen {
+    max-width: 1728px;
+    max-height: 226px;
+}
+
+.accessories {
+    max-width: 1728px;
+    max-height: 2365px;
+}
+
+.numbers {
+    max-width: 1284px;
+    max-height: 521px;
+}
+
+.faq {
+    max-width: 1284px;
+    max-height: 941px
+}
+
+.tobuy {
+    max-width: 1284px;
+    max-height: 309px;
+}
+
+.footer {
+    margin-top: 128px;
+    display: flex;
+    height: 256px;
+    background-color: var(--clr-primary-800);
+    color: var(--clr-primary-50);
+    justify-content: space-between;
+}
+
+.footer-address {
+    max-width: 30%;
+    padding-left: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 128px;
 }
