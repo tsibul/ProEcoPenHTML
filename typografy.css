@@ -38,3 +38,131 @@
     /* Pallete Base/Secondary */
     color: #242F34;
 }
+
+/* Title/Medium */
+.title2 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Body 1/Regular */
+.body1 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Body 1/Medium */
+.body2 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Link 1/Regular */
+.link1 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Link 1/Medium */
+.link2 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Body 2/Regular */
+.body2 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Body 2/Medium */
+.body4 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Caption/Regular */
+.capiton1 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
+
+/* Caption/Medium */
+.capiton2 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: -0.02em;
+
+    /* Pallete Base/Secondary */
+    color: #242F34;
+}
