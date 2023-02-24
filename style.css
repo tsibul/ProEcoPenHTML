@@ -227,46 +227,89 @@ body {
 }
 
 .what {
+    position: relative;
+    margin-top: 128px;
     max-width: 1284px;
     max-height: 763px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: baseline;
+    padding: 10px;
 }
 
+.what img {
+    position: absolute;
+    padding-left: 36vw;
+}
+
+
 .pens {
+    margin-top: 440px;
     max-width: 1728px;
     max-height: 2547.49px;
 }
 
+.pens-title {}
+
+.pens-line {}
+
+.pens-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 145%;
+    color: var(--clr-secondary);
+}
+
+.pens-text li {
+    padding: 2%;
+    max-width: 30%;
+}
+
 .fact {
+    margin-top: 128px;
     max-width: 1284px;
     max-height: 516px;
 }
 
 .notebook {
+    margin-top: 128px;
     max-width: 1728px;
     max-height: 2957.49px;
 }
 
 .proecopen {
+    margin-top: 128px;
     max-width: 1728px;
     max-height: 226px;
 }
 
 .accessories {
+    margin-top: 128px;
     max-width: 1728px;
     max-height: 2365px;
 }
 
 .numbers {
+    margin-top: 128px;
     max-width: 1284px;
     max-height: 521px;
 }
 
 .faq {
+    margin-top: 128px;
     max-width: 1284px;
     max-height: 941px
 }
 
 .tobuy {
+    margin-top: 128px;
     max-width: 1284px;
     max-height: 309px;
 }
@@ -274,22 +317,31 @@ body {
 .footer {
     margin-top: 128px;
     display: flex;
-    height: 256px;
+    min-height: 256px;
     background-color: var(--clr-primary-800);
     color: var(--clr-primary-50);
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .footer-address {
     max-width: 30%;
-    padding-left: 128px;
+    padding-left: 10vw;
+    gap: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.footer-bottom {
+    padding-left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-icons {
     display: flex;
     align-items: center;
-    padding-right: 128px;
+    padding-right: 10vw;
 }

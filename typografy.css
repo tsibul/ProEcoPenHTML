@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 @font-face {
     font-family: '/font/Neue Machina';
     src: url('/font/NeueMachina-Ultralight.eot');
@@ -263,4 +265,13 @@
 
     /* Pallete Base/Secondary */
     color: #242F34;
+}
+
+.what-text {
+    font-family: 'Neue Machina', 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 89%;
+    counter-reset: var(--clr-secondary);
 }

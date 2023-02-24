@@ -61,7 +61,7 @@
 
 .btn {
     display: flex;
-    border: 0px;
+    border: 1px solid;
     border-radius: 32px;
     padding: 12px 24px;
     align-items: center;
